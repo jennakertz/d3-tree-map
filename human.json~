@@ -5,7 +5,7 @@
     { "name": "Prepare Warehouse", "size":1000, "nid": 2},
     { "nid":4,"name": "Sign In",
       "children": [
-        { "nid":5,"name": "Connect Integrations",
+        { "nid":5,"name": "Connection Integrations",
         	"children": [
         		{"nid":6,"name": "Saas", 
 		        	"children": [
