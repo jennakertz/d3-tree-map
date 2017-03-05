@@ -1,0 +1,315 @@
+{
+ "nid":0,"name": "Welcome to Stitch",
+ "children": [
+    { "name": "Prepare Integration", "size":1000, "nid": 1},
+    { "name": "Prepare Warehouse", "size":1000, "nid": 2},
+    { "nid":4,"name": "Sign In",
+      "children": [
+        { "nid":5,"name": "Connection Integrations",
+        	"children": [
+        		{"nid":6,"name": "Saas", 
+		        	"children": [
+		        		{"nid":7,"name": "desk.com", 
+			        		"children": [
+			        		 	{"nid":8,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":9,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+			        	}, 
+		        		{"nid":12,"name": "Salesforce",
+		        			"children": [
+		        				{"nid":13,"name": "Credentials"}, 
+			        		 	{"nid":14,"name": "Integration settings"},
+			        		 	{"nid":15,"name": "Configure"}
+		        			]
+		        		},
+		        		{"nid":16,"name": "Pardot", 
+			        		"children": [
+			        		 	{"nid":17,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":18,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":19,"name": "Facebook", 
+		        			"children": [
+		        				{"nid":20,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":21,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":22,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":23,"name": "AdWords", 
+			        		"children": [
+			        		 	{"nid":24,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":25,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":26,"name": "Google Ecommerce", 
+			        		"children": [
+			        		 	{"nid":27,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":28,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":29,"name": "Intercom", 
+			        		"children": [
+			        		 	{"nid":30,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":31,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":32,"name": "Netsuite", 
+		        			"children": [
+		        				{"nid":33,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":34,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":35,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":36,"name": "Quickbooks", 
+			        		"children": [
+			        		 	{"nid":37,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":38,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":39,"name": "Recurly", 
+			        		"children": [
+			        		 	{"nid":39,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":40,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":41,"name": "Segment", 
+		        			"children": [
+		        				{"nid":42,"name": "Credentials"}
+		        			]
+		        		},
+		        		{"nid":43,"name": "Shopify", 
+			        		"children": [
+			        		 	{"nid":44,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":45,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":46,"name": "Square", 
+			        		"children": [
+			        		 	{"nid":47,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":48,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":49,"name": "Stripe", 
+			        		"children": [
+			        		 	{"nid":50,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":51,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":52,"name": "Trello", 
+			        		"children": [
+			        		 	{"nid":53,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":54,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":55,"name": "Zendesk", 
+			        		"children": [
+			        		 	{"nid":56,"name": "Credentials", 
+			        		 		"children": [
+			        		 			{"nid":57,"name": "Integration settings"}
+			        		 		]
+			        		 	}
+			        		 ]
+		        		},
+		        		{"nid":58,"name": "Zuora", 
+		        			"children": [
+		        				{"nid":59,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":60,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":61,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":62,"name": "Mixpanel", 
+		        			"children": [
+		        				{"nid":63,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":64,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":65,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":66,"name": "IAPI", 
+		        			"children": [
+		        				{"nid":67,"name": "Credentials"}
+		        			]
+		        		}
+		        	]
+        		}, 
+        	{"nid":68,"name": "Database", 
+        		"children": [
+		        		{"nid":69,"name": "PosgreSQL", 
+		        			"children": [
+		        				{"name": "Credentials",
+		        				 "nid":10, 
+		        					"children": [
+		        						{"nid":70,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":71,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":72,"name": "Heroku", 
+		        			"children": [
+		        				{"name": "Credentials",
+		        			     "nid":11, 
+		        					"children": [
+		        						{"nid":73,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":74,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":75,"name": "MySQL", 
+		        			"children": [
+		        				{"nid":76,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":77,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":78,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":79,"name": "MariaDB", 
+		        			"children": [
+		        				{"nid":80,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":81,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":82,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":83,"name": "Google Cloud SQL", 
+		        			"children": [
+		        				{"nid":84,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":85,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":86,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":87,"name": "MSSQL", 
+		        			"children": [
+		        				{"nid":88,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":89,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":90,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":91,"name": "Aurora", 
+		        			"children": [
+		        				{"nid":92,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":93,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":94,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		},
+		        		{"nid":95,"name": "MongoDB", 
+		        			"children": [
+		        				{"nid":96,"name": "Credentials", 
+		        					"children": [
+		        						{"nid":97,"name": "Integration settings", 
+		        							"children": [
+		        								{"nid":98,"name": "Configure"}
+		        							]
+		        						}
+		        					]
+		        				} 
+		        			]
+		        		}
+	        		]
+	        	}
+        	]
+        },
+        { "nid":99,"name": "Connect Destination", 
+        	"children": [
+        		{"nid":100,"name": "Redshift", 
+        			"children": [
+        				{"nid":101,"name": "Credentials"}
+        			]
+        		}
+        	]
+    	}
+      ]
+    }
+  ]
+}

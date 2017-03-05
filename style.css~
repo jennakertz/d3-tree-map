@@ -1,0 +1,190 @@
+html, body {
+    font-size: 17px;
+}
+
+body {
+    font-family: "proxima-nova",Helvetica, Arial, sans-serif;
+    background-color: #fff;
+}
+
+/*SUPPORT MAP*/
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  fill-opacity: #FFCC00;
+  stroke: #FFCC00;
+  stroke-width: 1.5px;
+}
+
+.node.fixed circle {
+  fill-opacity: #1E2024;
+  stroke: #1E2024;
+  stroke-width: 1.5px;
+}
+
+.node text {
+  font: 10px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #1E2024;
+  stroke-width: 1.5px;
+}
+
+#message {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-size: 14px;
+  border: 2px;
+  border-color: #CC3399;
+  border-style: dotted;
+  padding: 10px;
+  margin: 20px;
+}
+
+/* NAVBAR NEW */
+
+.dropbtn {
+    background-color: #ffffff;
+    width: 50px;
+    cursor: pointer;
+    margin: 20px 20px 0px 0px;  
+    opacity: 20%;
+    text-align: right;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    text-align: right;
+    margin: auto;
+}
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    min-width: 160px;
+    height: 50px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.dropdown-content a {
+    color: #737373;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    margin: auto;
+}
+
+.dropdown-content a:hover {
+    color: #000000;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline;
+}
+
+.dropdown:hover .dropbtn {
+            -webkit-transform: scale(.9);
+    transform: scale(1.2);
+}
+
+/* STRUCTURE */
+
+section {
+    margin: 4rem 0;
+}
+section#overview {
+    margin: 0.5rem 0;
+}
+
+section#news-feed {
+    margin-bottom: 0.5rem;
+}
+
+#disclaimer {
+    margin: 0 0 -5rem 0;
+}
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 8px 2px rgba(0,0,0,0.1);
+    padding: 3rem;
+}
+
+.row + .row {
+    margin-top: 4rem;
+}
+
+.full-title > h3 {
+    margin-top: 0;
+}
+
+#overview-time-period-choice {
+    margin-right: 1rem;
+}
+
+/* TYPOGRAPHY NEW */
+
+h1 {
+    font-family: 'Megrim', cursive;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Megrim', cursive;
+    font-size: 50px;
+}
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin:0;
+    padding:0;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 990px) {
+    .card {
+        padding: 1.5rem 1rem;
+    }
+
+    .row + .row {
+        margin-top: 0rem;
+    }
+
+    .mode-chart {
+        margin-bottom: 2rem;
+    }
+
+    .full-title > h3 {
+        margin-top: 1.5rem;
+    }
+
+    .button-wrapper {
+        margin-bottom: 2rem;
+    }
+
+    .button-wrapper-plan {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="description" content="some things about jenna. some things about other things." />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'></script>
+    <script src="past.js" type="text/javascript"></script>
+    <script src="scroll.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Megrim' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+    <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" /> -->
+<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"/>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css"/> -->
+    <script src="//d3js.org/d3.v3.min.js"></script>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'> -->
+    <script src="https://use.typekit.net/jvq7daa.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+    </script>
+</head>
+
+<body class="blocked">
+
+  <div class="dropdown">
+    <div class="dropdown-content">
+      <a href="http://www.jennakertz.com/">home</a>
+      <a href="http://www.jennakertz.com/projects/">projects</a>
+      <a href="http://www.jennakertz.com/experience/">experience</a>
+      <a href="http://www.jennakertz.com/blog/">blog</a>
+    </div>
+    <input type="image" src="nav_jenna.png" class="dropbtn"/>
+  </div>
+
+<br>
+<br>
+<br>
+
+<div id="message">
+  <script>
+    document.getElementById("message").innerHTML = d.message
+  </script>
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="container">
+  <p><script src="treetop.js"></script></p>
+</div>
+
+</body>
+</html>
+
